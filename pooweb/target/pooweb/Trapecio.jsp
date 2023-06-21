@@ -12,7 +12,7 @@
     <div class="container">
         <div class="title">Trapecio</div>
         <div class="columns a">
-            <form action="#">
+            <form action="servlet" method="post">
                 <label for="ladoA" class="word1">Ingrese el ladoA que tiene su trapecio:  </label>
                 <br>
                 <input type="number" name="ladoA" class="input" value="Numero" required>
@@ -25,7 +25,7 @@
                 <br>
                 <input type="number" name="altura" class="input" value="Numero" required>
                 <br>
-                <button type="submit" class="button">Enviar</button>
+                <button type="submit" class="button" name="control1" value="areatrapecio">Enviar</button>
                 <br>
                <a href="index.jsp"> <button type="button" class="button">Regresar</button></a>
             </form>

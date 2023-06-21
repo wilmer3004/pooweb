@@ -12,12 +12,12 @@
     <div class="container">
         <div class="title">Circulo</div>
         <div class="columns a">
-            <form action="#">
+            <form action="servlet" method="post">
                 <label for="radio" class="word1">Ingrese el radio que tiene su circulo:  </label>
                 <br>
                 <input type="number" name="radio" class="input" value="Numero" required>
                 <br>
-                <button type="submit" class="button">Enviar</button>
+                <button type="submit" class="button" name="control1" value="areaciculo">Enviar</button>
                 <br>
                <a href="index.jsp"> <button type="button" class="button">Regresar</button></a>
             </form>

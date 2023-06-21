@@ -67,7 +67,7 @@ public class Servlet extends HttpServlet{
             System.out.println("El ladoA es "+ladoA+" el ladoB es "+ladoB+" la altura es "+alturatra);
                 break;
 
-            case "areacirculo":
+            case "areaciculo":
            double radio=Double.parseDouble(req.getParameter("radio"));
             Circulo circ=new Circulo(radio);
             System.out.println(radio);
