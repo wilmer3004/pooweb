@@ -6,9 +6,19 @@ public class Trapecio extends Figura {
     // Declaramos los atributos
     private Double ladoA;
     private Double ladoB;
+    private Double ladoC;
+    private Double ladoD;
     private Double altura;
     public Trapecio() {
     }
+    
+    public Trapecio(Double ladoA, Double ladoB, Double ladoC, Double ladoD) {
+        this.ladoA = ladoA;
+        this.ladoB = ladoB;
+        this.ladoC = ladoC;
+        this.ladoD = ladoD;
+    }
+
     public Trapecio(Double ladoA, Double ladoB, Double altura) {
         this.ladoA = ladoA;
         this.ladoB = ladoB;
@@ -42,7 +52,7 @@ public class Trapecio extends Figura {
     }
     public Double calcularPerimetro(){
         Double perimetro = 0.0;
-        
+        perimetro=ladoA+ladoB+ladoC+ladoD;
         return perimetro;
     }
     

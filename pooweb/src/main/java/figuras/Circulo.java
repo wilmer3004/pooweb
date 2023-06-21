@@ -33,7 +33,7 @@ public class Circulo extends Figura {
     }
     public Double calcularPerimetro(){
         Double perimetro = 0.0;
-        
+        perimetro = 2*pi*radio;
         return perimetro;
     }
 }

@@ -8,10 +8,20 @@
         "areatrapecio",
         "areatriangulo",
         "baset",
+        "circuloper",
+        "eleccioncir",
+        "eleccionrec",
+        "elecciontra",
+        "elecciontri",
+        "Iteracion",
         "perimetro",
         "Perimetro",
+        "perimetrorec",
         "rectangulo",
         "Rectangulo",
-        "servlet"
+        "rectanguloper",
+        "servlet",
+        "trapecioper",
+        "trianguloper"
     ]
 }

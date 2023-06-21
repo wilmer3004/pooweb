@@ -11,22 +11,22 @@
 <body>
     
     <div class="container">
-        <div class="title">Vamos a calcular el area de las distintas figuras de esta sección</div>
+        <div class="title">Vamos a calcular el area o el perimetro de las distintas figuras de esta sección</div>
         <div class="row">
             <div class="img1 columns a">
                 <div class="word1">Rectángulo</div>
                 <img src="img/rectangulo.png" alt="Rectángulo" class="img">
-                <a href="servlet?accion=rectangulo"><button type="button" class="button">AREA</button></a>
+                <a href="servlet?accion=eleccionrec"><button type="button" class="button">Rectangulo</button></a>
             </div>
             <div class="img1 columns a">
                 <div class="word1">Circulo</div>
                 <img src="img/circulo.png" alt="Circulo" class="img">
-                <a href="servlet?accion=circulo"><button type="button" class="button">AREA</button></a>
+                <a href="servlet?accion=eleccioncir"><button type="button" class="button">Circulo</button></a>
             </div>
             <div class="img1 triangulo columns a">
                 <div class="word1">Triangulo</div>
                 <img src="img/triangulo.png" alt="Triangulo" class="img">
-                <a href="servlet?accion=triangulo"><button type="button" class="button">AREA</button></a>
+                <a href="servlet?accion=elecciontri"><button type="button" class="button">Triangulo</button></a>
             </div>
             
 
@@ -38,7 +38,7 @@
             <div class="img1 columns a">
                 <div class="word1">Trapecio</div>
                 <img src="img/trapecio.png" alt="Trapecio" class="img">
-                <a href="servlet?accion=trapecio"><button type="button" class="button">AREA</button></a>
+                <a href="servlet?accion=elecciontra"><button type="button" class="button">Trapecio</button></a>
             </div>
         </div>
 

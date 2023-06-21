@@ -37,7 +37,7 @@ public class Rectangulo extends Figura{
     }
      public Double calcularPerimetro(){
         Double perimetro = 0.0;
-        
+        perimetro=base*2+altura*2;
         return perimetro;
     }
 
