@@ -27,6 +27,11 @@ package figuras;
         area = base*altura/2;
         return area;
     }
+    public Double calcularPerimetro(){
+        Double perimetro = 0.0;
+        
+        return perimetro;
+    }
 
     
 }

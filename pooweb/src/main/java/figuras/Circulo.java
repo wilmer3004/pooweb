@@ -31,4 +31,9 @@ public class Circulo extends Figura {
         area = pi * Math.pow(radio, 2);
         return area;
     }
+    public Double calcularPerimetro(){
+        Double perimetro = 0.0;
+        
+        return perimetro;
+    }
 }

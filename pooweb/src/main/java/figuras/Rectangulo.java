@@ -35,6 +35,11 @@ public class Rectangulo extends Figura{
         area = base*altura;
         return area;
     }
+     public Double calcularPerimetro(){
+        Double perimetro = 0.0;
+        
+        return perimetro;
+    }
 
     
 }
